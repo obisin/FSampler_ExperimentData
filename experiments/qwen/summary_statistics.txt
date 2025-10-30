@@ -1,0 +1,54 @@
+================================================================================
+FSAMPLER EXPERIMENT ANALYSIS - SUMMARY STATISTICS
+================================================================================
+
+Total experiments: 31
+Baseline runs: 1
+FSampler runs: 30
+
+================================================================================
+BASELINE PERFORMANCE (No FSampler Optimization)
+================================================================================
+
+Average Runtime: 145.39s
+Average NFE: 25.0
+
+================================================================================
+FSAMPLER PERFORMANCE
+================================================================================
+
+Average Runtime: 124.52s
+Average NFE: 20.1
+Average NFE Reduction: 9.80%
+Average Time Saved: 14.35%
+Average Time Saved (seconds): 20.87s
+
+Quality Metrics (vs Baseline):
+  Average SSIM: 0.9323
+  Min SSIM: 0.7164
+  Max SSIM: 0.9952
+  Average RMSE: 0.0467
+  Average MAE: 0.0243
+
+================================================================================
+BEST FSAMPLER CONFIGURATION (by SSIM)
+================================================================================
+
+Skip Mode: h2/s5
+Adaptive Mode: learning
+SSIM: 0.9952
+Runtime: 133.59s
+Time Saved: 8.1%
+NFE: 22
+NFE Reduction: 6.0%
+
+================================================================================
+EXPERIMENT CONFIGURATION
+================================================================================
+
+Samplers tested: euler
+Skip modes tested: adaptive, h2/s2, h2/s3, h2/s4, h2/s5, h3/s3, h3/s4, h3/s5, h4/s4, h4/s5, none
+Adaptive modes tested: grad_est, learn+grad_est, learning, none
+Models tested: qwen-image
+
+================================================================================
