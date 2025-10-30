@@ -1,0 +1,54 @@
+================================================================================
+FSAMPLER EXPERIMENT ANALYSIS - SUMMARY STATISTICS
+================================================================================
+
+Total experiments: 32
+Baseline runs: 1
+FSampler runs: 31
+
+================================================================================
+BASELINE PERFORMANCE (No FSampler Optimization)
+================================================================================
+
+Average Runtime: 213.59s
+Average NFE: 26.0
+
+================================================================================
+FSAMPLER PERFORMANCE
+================================================================================
+
+Average Runtime: 180.55s
+Average NFE: 22.3
+Average NFE Reduction: 14.14%
+Average Time Saved: 15.47%
+Average Time Saved (seconds): 33.04s
+
+Quality Metrics (vs Baseline):
+  Average SSIM: 0.9290
+  Min SSIM: 0.8396
+  Max SSIM: 0.9710
+  Average RMSE: 0.0482
+  Average MAE: 0.0220
+
+================================================================================
+BEST FSAMPLER CONFIGURATION (by SSIM)
+================================================================================
+
+Skip Mode: h3/s5
+Adaptive Mode: learning
+SSIM: 0.9710
+Runtime: 193.06s
+Time Saved: 9.6%
+NFE: 24
+NFE Reduction: 7.7%
+
+================================================================================
+EXPERIMENT CONFIGURATION
+================================================================================
+
+Samplers tested: res_2s
+Skip modes tested: adaptive, h2/s2, h2/s3, h2/s4, h2/s5, h3/s3, h3/s4, h3/s5, h4/s4, h4/s5, none
+Adaptive modes tested: grad_est, learn+grad_est, learning, none
+Models tested: wan22-high-noise+wan22-high-noise
+
+================================================================================
