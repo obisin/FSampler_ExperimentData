@@ -18,7 +18,7 @@ High-resolution analysis files including:
 - Adaptive mode analysis
 - Configuration tables and reports
 
-**Link to FLUX analysis**: [[link](https://github.com/obisin/FSampler_ExperimentData/tree/main/experiments/flux/_analysis)]
+**Link to FLUX analysis**: [[link](https://github.com/obisin/FSampler_ExperimentData/tree/main/experiments/flux/)]
 
 ### Qwen-Image (`qwen1/`)
 High-resolution analysis files including:
@@ -28,7 +28,7 @@ High-resolution analysis files including:
 - Performance metrics
 - Configuration analysis
 
-**Link to Qwen analysis**: [[link](https://github.com/obisin/FSampler_ExperimentData/tree/main/experiments/qwen/_analysis)]
+**Link to Qwen analysis**: [[link](https://github.com/obisin/FSampler_ExperimentData/tree/main/experiments/qwen/)]
 
 ### WAN2.2 (`wan221/`)
 High-resolution analysis files including:
