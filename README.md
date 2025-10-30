@@ -10,7 +10,7 @@ Each model has its own subdirectory containing:
 
 ## Available Models
 
-### FLUX.1-dev (`fluxr1/`)
+### FLUX.1-dev (`flux`)
 High-resolution analysis files including:
 - Family sweep graphs (SSIM vs NFE, SSIM vs Time Saved)
 - Ablation heatmaps (skip mode, adaptive mode)
@@ -20,7 +20,7 @@ High-resolution analysis files including:
 
 **Link to FLUX analysis**: [[link](https://github.com/obisin/FSampler_ExperimentData/tree/main/experiments/flux/)]
 
-### Qwen-Image (`qwen1/`)
+### Qwen-Image (`qwen`)
 High-resolution analysis files including:
 - Family sweep graphs
 - Ablation heatmaps
@@ -30,7 +30,7 @@ High-resolution analysis files including:
 
 **Link to Qwen analysis**: [[link](https://github.com/obisin/FSampler_ExperimentData/tree/main/experiments/qwen/)]
 
-### WAN2.2 (`wan221/`)
+### WAN2.2 (`wan2.2`)
 High-resolution analysis files including:
 - Family sweep graphs
 - Ablation heatmaps
