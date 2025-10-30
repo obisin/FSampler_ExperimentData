@@ -5,7 +5,6 @@ This directory contains experimental results and analysis for various diffusion 
 ## Structure
 
 Each model has its own subdirectory containing:
-- Individual experiment runs (timestamped folders)
 - `_analysis/` folder with comprehensive analysis in high resolution
 
 ## Available Models
